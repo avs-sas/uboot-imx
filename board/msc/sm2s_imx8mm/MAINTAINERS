@@ -1,0 +1,6 @@
+i.MX8MM SM2S BOARD
+M:	Tommaso Merciai <tommaso.merciai@avnet.eu>
+S:	Maintained
+F:	board/msc/sm2s_imx8mm
+F:	include/configs/msc_sm2s_imx8mm.h
+F:	configs/msc_sm2s_imx8mm_defconfig
