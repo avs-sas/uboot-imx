@@ -1,0 +1,13 @@
+#
+# Copyright (C) 2019 AVNET Integrated, MSC Technologies GmbH
+#
+# SPDX-License-Identifier:      GPL-2.0+
+#
+
+menu "MSC board/module specific features"
+
+config BOARDINFO_EEPROM
+	bool "Board information EEPROM storage"
+	default y
+	help
+	  Enable board information storage in EEPROM
