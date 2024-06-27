@@ -446,10 +446,13 @@ config TARGET_IMX8MP_RSB3720A1_6G
 
 config TARGET_MSC_SM2S_IMX8MP
 	bool "MSC SMARC2 i.MX8MPLUS"
-	select BINMAN
 	select IMX8MP
 	select SUPPORT_SPL
 	select IMX8M_LPDDR4
+	select FSL_CAAM
+	select FSL_BLOB
+	select ARCH_MISC_INIT
+	select SPL_CRYPTO if SPL
 
 config TARGET_LIBREM5
 	bool "Purism Librem5 Phone"
